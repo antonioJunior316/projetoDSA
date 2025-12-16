@@ -17,15 +17,15 @@ critérios de desempate(Preemptivo)
 quando dois processo tiverem a mesma prioridade e ja chegaram ao sitema, ordem de varredura pelo ID menor
 
 criterios de desempate(Não Preemptivo)
-quando mas de um processo esta podendo executa no mesmo momento os criterios sao menor prioridade de numero,ordem de chegada e ordem de cadastro menor ID
+quando mas de um processo esta podendo executa no mesmo momento os criterios são menor prioridade de numero,ordem de chegada e ordem de cadastro menor ID
 
-calculo das métricas
+cálculo das métricas
 
 turnaround = tempo de termino menos tempo de chegada
 
 waiting = turnaround menos a duração do processo
 
-response =  tempo de inicio menos  tempo de chegada
+response =  tempo de início menos  tempo de chegada
 
-Throughput = tempo total de todos os processos dividido pelo numero de processos
+Throughput = tempo total de todos os processos dividido pelo número de processos
 
